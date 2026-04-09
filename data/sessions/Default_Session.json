@@ -3,9 +3,9 @@
   "created_at": "2026-04-07 15:47:32",
   "filters": {
     "wait_min": 0,
-    "wait_max": 99999,
+    "wait_max": 0,
     "ingame_min": 0,
-    "ingame_max": 99999
+    "ingame_max": 0
   },
   "historical": {
     "total_runs": 0,
