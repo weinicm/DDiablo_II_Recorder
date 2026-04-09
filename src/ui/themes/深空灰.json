@@ -1,0 +1,17 @@
+{
+  "name": "深空灰",
+  "colors": {
+    "BG": "#1A1A1A", "FG": "#C8C8C8",
+    "INPUT_BG": "#262626", "INPUT_TEXT": "#D0D0D0",
+    "BTN_BG": "#2A2A2A", "BTN_TEXT": "#B0B0B0", "BTN_HOVER": "#333333", "BTN_PRESSED": "#222222",
+    "BORDER": "#333333", "ACCENT": "#4FACFE",
+    "HEADER_BG": "#222222", "GROUP_BG": "#1E1E1E", "PANEL_BG": "#242424",
+    "BIG_NUM": "#F2F2F2", "DUR_TEXT": "#9E9E9E", "AVG_TEXT": "#A8D5BA",
+    "OVERLAY_BTN_BG": "#4ADE80",
+    "OVERLAY_BTN_HOVER": "#5BE991",
+    "OVERLAY_BTN_PRESSED": "#3ACD70",
+    "OVERLAY_BTN_TEXT": "#FFFFFF",
+    "OVERLAY_TEXT": "#FFFFFF"
+    
+  }
+}

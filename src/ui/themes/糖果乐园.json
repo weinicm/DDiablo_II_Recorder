@@ -1,0 +1,16 @@
+{
+  "name": "糖果乐园",
+  "colors": {
+    "BG": "#3A1F3A", "FG": "#FFE6FF",
+    "INPUT_BG": "#4A2C4A", "INPUT_TEXT": "#FFE6FF",
+    "BTN_BG": "#5C3A5C", "BTN_TEXT": "#FFE6FF", "BTN_HOVER": "#704A70", "BTN_PRESSED": "#472947",
+    "BORDER": "#9C6B9C", "ACCENT": "#FF66CC",
+    "HEADER_BG": "#4A2C4A", "GROUP_BG": "#3D253D", "PANEL_BG": "#5C3A5C",
+    "BIG_NUM": "#FF99E6", "DUR_TEXT": "#FFB8F0", "AVG_TEXT": "#66FFB3",
+    "OVERLAY_BTN_BG": "#FF66CC",
+    "OVERLAY_BTN_HOVER": "#FF80D9",
+    "OVERLAY_BTN_PRESSED": "#FF4DB8",
+    "OVERLAY_BTN_TEXT": "#FFFFFF",
+    "OVERLAY_TEXT": "#FFE6FF"
+  }
+}

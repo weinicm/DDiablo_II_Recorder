@@ -1,0 +1,16 @@
+{
+  "name": "暗夜紫",
+  "colors": {
+    "BG": "#1A1A2E", "FG": "#D4D4E6",
+    "INPUT_BG": "#252540", "INPUT_TEXT": "#E0E0F0",
+    "BTN_BG": "#2A2A4A", "BTN_TEXT": "#D8D8F0", "BTN_HOVER": "#35355A", "BTN_PRESSED": "#202040",
+    "BORDER": "#3C3C6A", "ACCENT": "#A855F7",
+    "HEADER_BG": "#26263C", "GROUP_BG": "#222238", "PANEL_BG": "#2C2C4C",
+    "BIG_NUM": "#F3E8FF", "DUR_TEXT": "#B8A2D9", "AVG_TEXT": "#81C995",
+    "OVERLAY_BTN_BG": "#A855F7",
+    "OVERLAY_BTN_HOVER": "#B366FF",
+    "OVERLAY_BTN_PRESSED": "#9545E0",
+    "OVERLAY_BTN_TEXT": "#FFFFFF",
+    "OVERLAY_TEXT": "#FFFFFF"
+  }
+}

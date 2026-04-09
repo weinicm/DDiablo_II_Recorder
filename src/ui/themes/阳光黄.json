@@ -1,0 +1,16 @@
+{
+  "name": "阳光黄",
+  "colors": {
+    "BG": "#3A2C0F", "FG": "#FFF8D9",
+    "INPUT_BG": "#4D3A14", "INPUT_TEXT": "#FFF8D9",
+    "BTN_BG": "#5C471A", "BTN_TEXT": "#FFF8D9", "BTN_HOVER": "#70581F", "BTN_PRESSED": "#473610",
+    "BORDER": "#9C7A2C", "ACCENT": "#FFD700",
+    "HEADER_BG": "#4D3A14", "GROUP_BG": "#3D2E0F", "PANEL_BG": "#5C471A",
+    "BIG_NUM": "#FFE44C", "DUR_TEXT": "#FFEB7A", "AVG_TEXT": "#81C995",
+    "OVERLAY_BTN_BG": "#FFD700",
+    "OVERLAY_BTN_HOVER": "#FFE44C",
+    "OVERLAY_BTN_PRESSED": "#FFC700",
+    "OVERLAY_BTN_TEXT": "#0A0A0A",
+    "OVERLAY_TEXT": "#FFF8D9"
+  }
+}
