@@ -1,0 +1,22 @@
+{
+  "name": "崔凡克3c",
+  "created_at": "2026-04-08 16:20:22",
+  "filters": {
+    "wait_max": 0,
+    "ingame_min": 0,
+    "ingame_max": 0
+  },
+  "historical": {
+    "total_runs": 9,
+    "total_duration": 670.73
+  },
+  "current": {
+    "runs": 0,
+    "saved_duration": 26.03,
+    "resume_time": 1775908791.6380963,
+    "wait_time_accum": 0.0,
+    "duration": 230.85
+  },
+  "initialized": true,
+  "last_scene": "in_game"
+}

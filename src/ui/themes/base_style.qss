@@ -1,0 +1,223 @@
+/* ================= 全局基础 ================= */
+QWidget { 
+    background: {{BG}}; 
+    color: {{FG}}; 
+    font-family: 'Microsoft YaHei', sans-serif; 
+}
+
+/* ================= 输入控件：统一高度，防止挤压 ================= */
+QLineEdit, QComboBox, QSpinBox {
+    background: {{INPUT_BG}}; 
+    border: 1px solid {{BORDER}}; 
+    border-radius: 6px;
+    padding: 5px 8px;       /* 增加垂直内边距，让文字不贴边 */
+    min-height: 28px;       /* 锁定最小高度，确保点击区域舒适 */
+    max-height: 30px;
+    color: {{INPUT_TEXT}};
+}
+QLineEdit:focus, QComboBox:focus, QSpinBox:focus { 
+    border-color: {{ACCENT}}; 
+}
+
+/* ================= 普通按钮 ================= */
+QPushButton {
+    background: {{BTN_BG}}; 
+    border: 1px solid {{BORDER}}; 
+    border-radius: 6px;
+    padding: 5px 12px;      /* 增加左右内边距，让文字更舒展 */
+    min-height: 28px;
+    color: {{BTN_TEXT}};
+}
+QPushButton:hover { 
+    background: {{BTN_HOVER}}; 
+    border-color: {{ACCENT}}; 
+}
+QPushButton:pressed { 
+    background: {{BTN_PRESSED}}; 
+}
+QPushButton:disabled { 
+    opacity: 0.5; 
+}
+
+/* ================= SettingsPage 按钮 ================= */
+#btn_back, #btn_del, #btn_import_theme, #btn_add {
+    background: {{BTN_BG}}; 
+    border: 1px solid {{BORDER}}; 
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: {{BTN_TEXT}};
+    font-size: 12px;
+}
+#btn_back:hover, #btn_del:hover, #btn_import_theme:hover, #btn_add:hover { 
+    background: {{BTN_HOVER}}; 
+    border-color: {{ACCENT}}; 
+}
+
+/* ================= SettingsPage 输入控件 ================= */
+#settings_input, #settings_combo {
+    background: {{INPUT_BG}}; 
+    border: 1px solid {{BORDER}}; 
+    border-radius: 4px;
+    padding: 2px 8px;
+    color: {{INPUT_TEXT}};
+    font-size: 12px;
+}
+#settings_input:focus, #settings_combo:focus { 
+    border-color: {{ACCENT}}; 
+}
+
+/* ================= SettingsPage 标签 ================= */
+#settings_label {
+    color: {{FG}}; 
+    font-weight: bold; 
+    font-size: 13px;
+}
+
+/* ================= SettingsPage 滑块 ================= */
+#settings_slider::groove:horizontal {
+    background: {{INPUT_BG}};
+    border: 1px solid {{BORDER}};
+    height: 4px;
+    border-radius: 2px;
+}
+#settings_slider::handle:horizontal {
+    background: {{ACCENT}};
+    width: 12px;
+    height: 12px;
+    margin: -4px 0;
+    border-radius: 6px;
+}
+
+/* ================= 🔑 核心：顶部标题栏按钮 (保持紧凑) ================= */
+#header QPushButton {
+    padding: 0; margin: 0;
+    min-height: 28px; max-height: 28px;
+    min-width: 28px; max-width: 28px;
+    border-radius: 6px;
+    background: transparent;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: bold;
+}
+#header QPushButton:hover { 
+    background: rgba(255,255,255,0.1); 
+    border-color: {{ACCENT}}; 
+}
+#header QPushButton:pressed { 
+    background: rgba(0,0,0,0.2); 
+}
+
+/* ================= 🔑 关键：开始按钮的状态样式 ================= */
+#btn_start[state="ready"] {
+    color: #4ADE80; 
+    border: 1px solid #3A3B47;
+    background: {{BTN_BG}};
+}
+#btn_start[state="running"] {
+    color: #F87171; 
+    border: 1px solid #3A3B47;
+    background: {{BTN_BG}};
+}
+
+/* ================= 🔑 核心修复：分组框 (解决拥挤问题) ================= */
+QGroupBox {
+    border: 1px solid {{BORDER}}; 
+    border-radius: 8px;
+    margin-top: 16px;       /* 增加顶部外边距，与上方元素拉开距离 */
+    padding-top: 24px;      /* 🔑 关键：给标题留出足够空间，防止压住内容 */
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;   /* 底部留白，防止内容贴底 */
+    background: {{GROUP_BG}};
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 12px;
+    top: 2px;               /* 微调标题垂直位置 */
+    padding: 0 8px;         /* 标题左右留白 */
+    color: {{ACCENT}};
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* ================= 顶部标题栏 ================= */
+#header { 
+    background: {{HEADER_BG}}; 
+    border-bottom: 1px solid {{BORDER}}; 
+}
+
+/* ================= 标签系统 ================= */
+QLabel { 
+    color: {{FG}}; 
+}
+
+/* 大数字专属样式 */
+#lbl_big_runs { 
+    font-size: 84px; 
+    font-weight: 300; 
+    color: {{BIG_NUM}}; 
+    margin-left: 75px; 
+}
+#lbl_big_duration { 
+    color: {{DUR_TEXT}}; 
+    font-size: 14px; 
+    font-weight: 400; 
+    margin-top: 58px; 
+}
+
+/* ================= 历史面板 ================= */
+#recent_panel { 
+    background: {{PANEL_BG}}; 
+    border-radius: 10px; 
+    padding: 12px; 
+    margin-top: 8px; 
+}
+#lbl_recent_title { 
+    color: {{FG}}; 
+    font-weight: 500; 
+    font-size: 14px; 
+}
+#lbl_recent_avg { 
+    color: {{AVG_TEXT}}; 
+    font-size: 13px; 
+}
+#row_run_label, #row_time_label { 
+    color: {{FG}}; 
+    font-size: 14px; 
+}
+
+/* 蒙版播放按钮 - 简化圆形版本 */
+QPushButton#btn_start_overlay {
+    /* 基本形状 */
+    border-radius: 60px;  /* 明确使用像素值，确保圆形 */
+    
+    /* 透明背景 */
+    background: transparent;
+    
+    /* 圆环边框 */
+    border: 3px solid #CCCCCC;
+    
+    /* 播放符号 */
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    
+    /* 固定尺寸，确保正方形 */
+    width: 120px;
+    height: 120px;
+    
+    /* 内边距，让播放符号居中 */
+    padding: 0px;
+    padding-left: 8px;
+}
+
+QPushButton#btn_start_overlay:hover {
+    border: 3px solid #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+QPushButton#btn_start_overlay:pressed {
+    border: 3px solid #4FACFE;
+    background-color: rgba(255, 255, 255, 0.1);
+}

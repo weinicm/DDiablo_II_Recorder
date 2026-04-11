@@ -1,0 +1,16 @@
+{
+  "name": "炫彩粉",
+  "colors": {
+    "BG": "#2A1A2C", "FG": "#FFD6F6",
+    "INPUT_BG": "#3A253C", "INPUT_TEXT": "#FFD6F6",
+    "BTN_BG": "#4A2F4C", "BTN_TEXT": "#FFD6F6", "BTN_HOVER": "#5C3A5E", "BTN_PRESSED": "#39253A",
+    "BORDER": "#7A4C7C", "ACCENT": "#FF6BC7",
+    "HEADER_BG": "#3A253C", "GROUP_BG": "#321E34", "PANEL_BG": "#4A354C",
+    "BIG_NUM": "#FF8BD6", "DUR_TEXT": "#FFA8E0", "AVG_TEXT": "#81C995",
+    "OVERLAY_BTN_BG": "#FF6BC7",
+    "OVERLAY_BTN_HOVER": "#FF85D0",
+    "OVERLAY_BTN_PRESSED": "#E650B0",
+    "OVERLAY_BTN_TEXT": "#FFFFFF",
+    "OVERLAY_TEXT": "#FFD6F6"
+  }
+}

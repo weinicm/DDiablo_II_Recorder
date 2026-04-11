@@ -1,0 +1,29 @@
+{
+  "session": "崔凡克3c",
+  "filters": {
+    "wait_max": 0,
+    "ig_min": 0,
+    "ig_max": 0
+  },
+  "opacity": 100,
+  "sessions": [
+    "崔凡克3c",
+    "牛场",
+    "恐惧地带TZ",
+    "BUG超市",
+    "巴尔",
+    "女伯爵",
+    "召唤者",
+    "尼拉赛克",
+    "A1+A2钥匙",
+    "A1+A5钥匙",
+    "A2+A5钥匙",
+    "A1+A2+A5钥匙",
+    "test1"
+  ],
+  "theme": "优雅蓝",
+  "shortcuts": {
+    "lock_unlock": "Alt+S",
+    "capture_screenshot": "Alt+X"
+  }
+}

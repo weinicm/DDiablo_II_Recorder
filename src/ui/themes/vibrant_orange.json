@@ -1,0 +1,16 @@
+{
+  "name": "活力橙",
+  "colors": {
+    "BG": "#2B1B17", "FG": "#FFE5D9",
+    "INPUT_BG": "#3D281F", "INPUT_TEXT": "#FFE5D9",
+    "BTN_BG": "#4A2E22", "BTN_TEXT": "#FFE5D9", "BTN_HOVER": "#5C392A", "BTN_PRESSED": "#3A241A",
+    "BORDER": "#7A4C36", "ACCENT": "#FF7B2C",
+    "HEADER_BG": "#3D281F", "GROUP_BG": "#352319", "PANEL_BG": "#453025",
+    "BIG_NUM": "#FF9B5C", "DUR_TEXT": "#FFB685", "AVG_TEXT": "#4ADE80",
+    "OVERLAY_BTN_BG": "#FF7B2C",
+    "OVERLAY_BTN_HOVER": "#FF9147",
+    "OVERLAY_BTN_PRESSED": "#E56A1A",
+    "OVERLAY_BTN_TEXT": "#FFFFFF",
+    "OVERLAY_TEXT": "#FFE5D9"
+  }
+}

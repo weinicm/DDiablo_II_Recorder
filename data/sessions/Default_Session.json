@@ -1,0 +1,23 @@
+{
+  "name": "Default_Session",
+  "created_at": "2026-04-07 15:47:32",
+  "filters": {
+    "wait_min": 0,
+    "wait_max": 0,
+    "ingame_min": 0,
+    "ingame_max": 0
+  },
+  "historical": {
+    "total_runs": 0,
+    "total_duration": 0.0
+  },
+  "current": {
+    "runs": 0,
+    "saved_duration": 0.29,
+    "resume_time": 1775553803.9724298,
+    "wait_time_accum": 0.0,
+    "duration": 114.03
+  },
+  "initialized": true,
+  "last_scene": "login"
+}

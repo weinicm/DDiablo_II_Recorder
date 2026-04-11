@@ -1,0 +1,16 @@
+{
+  "name": "翡翠绿",
+  "colors": {
+    "BG": "#1A2C1A", "FG": "#D4E6D4",
+    "INPUT_BG": "#253C25", "INPUT_TEXT": "#E0F0E0",
+    "BTN_BG": "#2A442A", "BTN_TEXT": "#D8F0D8", "BTN_HOVER": "#355C35", "BTN_PRESSED": "#203C20",
+    "BORDER": "#3C6A3C", "ACCENT": "#10B981",
+    "HEADER_BG": "#263C26", "GROUP_BG": "#223822", "PANEL_BG": "#2C4C2C",
+    "BIG_NUM": "#F0FFF4", "DUR_TEXT": "#8BC68B", "AVG_TEXT": "#4ADE80",
+    "OVERLAY_BTN_BG": "#10B981",
+    "OVERLAY_BTN_HOVER": "#34D399",
+    "OVERLAY_BTN_PRESSED": "#0CA678",
+    "OVERLAY_BTN_TEXT": "#FFFFFF",
+    "OVERLAY_TEXT": "#FFFFFF"
+  }
+}
